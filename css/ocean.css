@@ -1,0 +1,66 @@
+body {
+  background: url(../img/bg100.png);
+  background-color: #031426;
+  font-family: "microsoft yahei"; }
+
+.index-nav {
+  margin: auto;
+  height: 100px;
+  position: absolute;
+  z-index: 990;
+  line-height: 100px;
+  right: 0;
+  left: 0; }
+  .index-nav .logo {
+    display: inline-block; }
+    .index-nav .logo img {
+      height: 60px; }
+  .index-nav nav {
+    display: inline-block; }
+    .index-nav nav a {
+      padding: 0 40px;
+      color: #FFF;
+      font-size: 18px; }
+      .index-nav nav a:hover {
+        color: #031426;
+        text-decoration: none; }
+
+.index-describe {
+  margin: 80px auto; }
+  .index-describe h2 {
+    border-top: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    padding: 40px 0; }
+  .index-describe p {
+    letter-spacing: 2px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #05afff; }
+    .index-describe p span {
+      color: #FFF;
+      font-size: 40px; }
+
+.earth {
+  display: block;
+  margin: -60px 50px 30px 20px;
+  float: right; }
+
+.moon {
+  display: block;
+  margin: -250px 0px 60px 20px;
+  float: left; }
+
+.big-earth {
+  width: 700px;
+  margin-bottom: 100px; }
+
+.copyright {
+  background-color: #39a1be;
+  height: 60px;
+  line-height: 60px;
+  color: #FFF; }
+  .copyright p {
+    padding-left: 50px; }
+
+/*# sourceMappingURL=ocean.css.map */

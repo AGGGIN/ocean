@@ -1,0 +1,80 @@
+$whiteFont:#FFF;
+$hoverBlue:#408bb5;
+$bgBlue:#031426;
+$txtBlue:#05afff;
+body{  
+    background: url(../img/bg100.png);
+    background-color: #031426;
+    font-family: "microsoft yahei";
+}
+.index-nav{
+    margin: auto;
+    height: 100px;
+    position: absolute;
+    z-index: 990;
+    line-height: 100px;
+    right: 0;
+    left: 0;
+
+    .logo{
+        display: inline-block;
+        img{
+            height: 60px;
+        }
+    }       
+    nav{
+        display: inline-block;
+        a{
+            padding: 0 40px;
+            color: $whiteFont;
+            font-size: 18px;
+            &:hover{
+                color: $bgBlue;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.index-describe{
+    margin: 80px auto;
+    h2{
+        border-top: 1px solid #FFF;
+        color: $whiteFont;
+        text-align: center;
+        padding: 40px 0;
+    }
+    p{
+        letter-spacing: 2px;
+        line-height: 26px;
+        font-size: 16px;
+        color: $txtBlue;
+        span{
+            color: #FFF;
+            font-size: 40px;
+        }
+    }
+}
+.earth{
+    display: block;
+    margin: -60px 50px 30px 20px;
+    float: right;
+}
+.moon{
+    display: block;
+    margin: -250px 0px 60px 20px;
+    float: left;
+}
+.big-earth{
+    width: 700px;
+    margin-bottom: 100px;
+}
+.copyright{
+    background-color: #39a1be;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    p{
+        padding-left: 50px;
+    }
+}
