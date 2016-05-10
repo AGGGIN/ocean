@@ -1,7 +1,8 @@
 body {
   background: url(../img/bg100.png);
   background-color: #031426;
-  font-family: "microsoft yahei"; }
+  font-family: "microsoft yahei";
+  min-width: 1000px; }
 
 .index-nav {
   margin: auto;
@@ -10,19 +11,20 @@ body {
   z-index: 990;
   line-height: 100px;
   right: 0;
-  left: 0; }
+  left: 0;
+  min-width: 1000px; }
   .index-nav .logo {
-    display: inline-block; }
+    display: inline-block;
+    width: 400px; }
     .index-nav .logo img {
       height: 60px; }
   .index-nav nav {
     display: inline-block; }
     .index-nav nav a {
-      padding: 0 40px;
+      padding: 0 20px;
       color: #FFF;
       font-size: 18px; }
       .index-nav nav a:hover {
-        color: #031426;
         text-decoration: none; }
 
 .index-describe {
@@ -61,6 +63,123 @@ body {
   line-height: 60px;
   color: #FFF; }
   .copyright p {
-    padding-left: 50px; }
+    padding-left: 30px;
+    margin: 0px; }
+
+.kopp-banner {
+  margin: 0 auto;
+  padding-top: 150px;
+  min-width: 1000px; }
+  .kopp-banner img {
+    width: 1000px; }
+
+.kopp-describe, .kopp-describe p {
+  height: 300px;
+  font-size: 18px;
+  margin-bottom: 40px; }
+  .kopp-describe h1 {
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 20px 0; }
+  .kopp-describe h2 {
+    font-size: 18px;
+    color: #05afff;
+    line-height: 28px; }
+  .kopp-describe p {
+    color: #FFF;
+    padding-top: 20px; }
+
+.bg-white {
+  background-color: #FFF; }
+
+.bg-gray {
+  background-color: #fdfdfd; }
+
+.bg-gray, .bg-white {
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed; }
+  .bg-gray .kopp-describe p, .kopp-describe .bg-gray p p, .bg-white .kopp-describe p, .kopp-describe .bg-white p p {
+    color: #333; }
+
+.kopp-left-txt p {
+  padding: 80px 0;
+  letter-spacing: 3px;
+  line-height: 36px;
+  width: 450px;
+  font-size: 18px;
+  float: left;
+  text-align: left; }
+
+.kopp-top-txt h1 {
+  padding: 60px 0;
+  font-size: 30px; }
+
+.kopp-right-pic {
+  display: inline-block;
+  float: right; }
+  .kopp-right-pic img {
+    width: 450px; }
+
+.zhaohuanshi {
+  padding-top: 50px;
+  height: 900px;
+  background: url(../img/zhaohuanshi1.jpg) no-repeat top center;
+  background-color: #FFF;
+  opacity: 0.8; }
+  .zhaohuanshi .zhaohuanshi-con {
+    width: 1000px;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;
+    filter: Alpha(opacity=80);
+    background: #000; }
+    .zhaohuanshi .zhaohuanshi-con p {
+      padding: 20px;
+      letter-spacing: 3px;
+      line-height: 36px;
+      font-size: 18px;
+      text-align: left; }
+
+.zhsxg {
+  padding-top: 50px;
+  float: right;
+  height: 50px; }
+
+.taitan {
+  width: 100%;
+  height: 800px;
+  background: url(../img/taitan.jpg) no-repeat center; }
+  .taitan .kopp-left-txt {
+    padding-top: 80px; }
+    .taitan .kopp-left-txt p {
+      float: none;
+      display: block;
+      color: #888;
+      padding: 0; }
+
+.luojie {
+  height: 800px; }
+  .luojie .luojie-txt p {
+    letter-spacing: 3px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: left; }
+
+.luojie-lar {
+  padding-top: 50px; }
+  .luojie-lar p {
+    letter-spacing: 3px;
+    line-height: 36px;
+    font-size: 18px;
+    width: 500px;
+    text-align: left;
+    display: inline-block;
+    float: left; }
+  .luojie-lar img {
+    display: inline-block;
+    width: 400px;
+    float: right; }
 
 /*# sourceMappingURL=ocean.css.map */
