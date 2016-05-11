@@ -160,7 +160,8 @@ body {
       padding: 0; }
 
 .luojie {
-  height: 800px; }
+  height: 800px;
+  margin-bottom: 30px; }
   .luojie .luojie-txt p {
     letter-spacing: 3px;
     line-height: 36px;
@@ -179,7 +180,7 @@ body {
     float: left; }
   .luojie-lar img {
     display: inline-block;
-    width: 400px;
+    width: 350px;
     float: right; }
 
 /*# sourceMappingURL=ocean.css.map */
