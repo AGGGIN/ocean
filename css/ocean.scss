@@ -75,7 +75,7 @@ body{
     background-color: #39a1be;
     height: 60px;
     line-height: 60px;
-        
+    position: relative;
     color: #FFF;
     p{
         padding-left: 30px;
@@ -118,6 +118,7 @@ body{
     background-color: #FFF;
 }
 .bg-gray{
+    position: relative;
     background-color: #fdfdfd;
 }
 .bg-gray,.bg-white{
@@ -199,32 +200,52 @@ body{
         }
     }
 }
+
 .luojie{
-    height: 800px;
-    margin-bottom: 30px;
-    .luojie-txt p{
+    
+    p{
+        padding: 20px;
         letter-spacing: 3px;
         line-height: 36px;
         font-size: 18px;
         text-align: left;
+        margin: 0;
+        height: 100%;
     }
     
+    .luojie-top{
+        height: 400px;
+        h1{
+            color: #333;
+        }
+    }
+    .luojie-bottom{
+        position: relative;
+        padding: 60px 0;
+        p{
+            padding: 20px;
+            display: inline-block;
+            width: 60%;
+        }
+        img{
+            padding: 20px;
+            float: right;
+            width: 40%;
+        }
+    }
 }
-.luojie-lar{
-    padding-top: 50px;
-    p{
-
-        letter-spacing: 3px;
-        line-height: 36px;
-        font-size: 18px;
-        width: 500px;
-        text-align: left;
+#kopp-shoanian{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+    line-height: 40px;
+    color: #498ecf;
+    a{
+        font-size: 20px;
+        color: #498ecf;
         display: inline-block;
-        float: left;
     }
-    img{
-        display: inline-block;
-        width: 350px;
-        float: right;
-    }
+    
+    
 }

@@ -61,6 +61,7 @@ body {
   background-color: #39a1be;
   height: 60px;
   line-height: 60px;
+  position: relative;
   color: #FFF; }
   .copyright p {
     padding-left: 30px;
@@ -94,6 +95,7 @@ body {
   background-color: #FFF; }
 
 .bg-gray {
+  position: relative;
   background-color: #fdfdfd; }
 
 .bg-gray, .bg-white {
@@ -159,28 +161,40 @@ body {
       color: #888;
       padding: 0; }
 
-.luojie {
-  height: 800px;
-  margin-bottom: 30px; }
-  .luojie .luojie-txt p {
-    letter-spacing: 3px;
-    line-height: 36px;
-    font-size: 18px;
-    text-align: left; }
+.luojie p {
+  padding: 20px;
+  letter-spacing: 3px;
+  line-height: 36px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  height: 100%; }
+.luojie .luojie-top {
+  height: 400px; }
+  .luojie .luojie-top h1 {
+    color: #333; }
+.luojie .luojie-bottom {
+  position: relative;
+  padding: 60px 0; }
+  .luojie .luojie-bottom p {
+    padding: 20px;
+    display: inline-block;
+    width: 60%; }
+  .luojie .luojie-bottom img {
+    padding: 20px;
+    float: right;
+    width: 40%; }
 
-.luojie-lar {
-  padding-top: 50px; }
-  .luojie-lar p {
-    letter-spacing: 3px;
-    line-height: 36px;
-    font-size: 18px;
-    width: 500px;
-    text-align: left;
-    display: inline-block;
-    float: left; }
-  .luojie-lar img {
-    display: inline-block;
-    width: 350px;
-    float: right; }
+#kopp-shoanian {
+  position: absolute;
+  height: 40px;
+  width: 300px;
+  padding-left: 15px;
+  line-height: 40px;
+  color: #498ecf; }
+  #kopp-shoanian a {
+    font-size: 20px;
+    color: #498ecf;
+    display: inline-block; }
 
 /*# sourceMappingURL=ocean.css.map */
