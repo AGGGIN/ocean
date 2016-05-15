@@ -28,13 +28,14 @@ body {
         text-decoration: none; }
 
 .index-describe {
-  margin: 80px auto; }
+  margin: 30px auto; }
   .index-describe h2 {
     border-top: 1px solid #FFF;
     color: #FFF;
     text-align: center;
     padding: 40px 0; }
   .index-describe p {
+    height: 180px;
     letter-spacing: 2px;
     line-height: 26px;
     font-size: 16px;
@@ -74,20 +75,20 @@ body {
   .kopp-banner img {
     width: 1000px; }
 
-.kopp-describe, .kopp-describe p {
+.kopp-describe, .kopp-describe p, .abus-banner {
   height: 300px;
   font-size: 18px;
   margin-bottom: 40px; }
-  .kopp-describe h1 {
+  .kopp-describe h1, .abus-banner h1 {
     color: #FFF;
     font-size: 30px;
     letter-spacing: 2px;
     padding: 20px 0; }
-  .kopp-describe h2 {
+  .kopp-describe h2, .abus-banner h2 {
     font-size: 18px;
     color: #05afff;
     line-height: 28px; }
-  .kopp-describe p {
+  .kopp-describe p, .abus-banner p {
     color: #FFF;
     padding-top: 20px; }
 
@@ -103,7 +104,7 @@ body {
   position: relative;
   border-top: 1px solid #ededed;
   border-bottom: 1px solid #ededed; }
-  .bg-gray .kopp-describe p, .kopp-describe .bg-gray p p, .bg-white .kopp-describe p, .kopp-describe .bg-white p p {
+  .bg-gray .kopp-describe p, .kopp-describe .bg-gray p p, .bg-gray .abus-banner p, .bg-white .kopp-describe p, .kopp-describe .bg-white p p, .bg-white .abus-banner p {
     color: #333; }
 
 .kopp-left-txt p {
@@ -161,40 +162,258 @@ body {
       color: #888;
       padding: 0; }
 
-.luojie p {
-  padding: 20px;
-  letter-spacing: 3px;
-  line-height: 36px;
-  font-size: 18px;
-  text-align: left;
-  margin: 0;
-  height: 100%; }
-.luojie .luojie-top {
-  height: 400px; }
-  .luojie .luojie-top h1 {
-    color: #333; }
-.luojie .luojie-bottom {
-  position: relative;
-  padding: 60px 0; }
-  .luojie .luojie-bottom p {
+.luojie {
+  padding-bottom: 30px; }
+  .luojie p {
     padding: 20px;
-    display: inline-block;
-    width: 60%; }
-  .luojie .luojie-bottom img {
-    padding: 20px;
-    float: right;
-    width: 40%; }
+    letter-spacing: 3px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    height: 100%; }
+  .luojie .luojie-top {
+    height: 400px; }
+    .luojie .luojie-top h1 {
+      color: #333; }
+  .luojie .luojie-bottom {
+    position: relative;
+    padding: 60px 0; }
+    .luojie .luojie-bottom p {
+      padding: 20px;
+      display: inline-block;
+      width: 60%; }
+    .luojie .luojie-bottom img {
+      padding: 20px;
+      float: right;
+      width: 40%; }
 
-#kopp-shoanian {
-  position: absolute;
-  height: 40px;
-  width: 300px;
-  padding-left: 15px;
-  line-height: 40px;
-  color: #498ecf; }
-  #kopp-shoanian a {
+.qietuzai-bg {
+  padding-top: 100px; }
+
+.qietuzai {
+  min-width: 1000px;
+  width: 100%;
+  height: 850px;
+  background: url(../img/qietuzai.png) center no-repeat; }
+
+.abus-banner {
+  padding-top: 200px; }
+
+.abus-responsive {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  background: url(../img/abus.png) center no-repeat; }
+
+.develop-bg {
+  width: 100%;
+  height: 550px; }
+  .develop-bg h1 {
+    padding-top: 35px;
+    font-size: 45px; }
+
+.browser-con {
+  display: inline-block;
+  height: 100px; }
+  .browser-con p {
     font-size: 20px;
-    color: #498ecf;
+    visibility: hidden; }
+
+.browser-icon {
+  width: 90px;
+  height: 90px;
+  margin: 60px;
+  margin-bottom: 0;
+  background: url(../img/browser.png); }
+
+.webkit-icon {
+  background-position: 0px 0px; }
+
+.gecko-icon {
+  background-position: -90px 0px; }
+
+.trident-icon {
+  background-position: -180px 0px; }
+
+.iemore-icon {
+  background-position: 0px -90px; }
+
+.ie7-icon {
+  background-position: -90px -90px; }
+
+.ie6-icon {
+  background-position: -180px -90px; }
+
+.abus-bg {
+  height: 370px; }
+
+.abus-con {
+  display: inline-block;
+  max-width: 500px;
+  margin: 50px 0; }
+  .abus-con h1 {
+    font-size: 30px; }
+  .abus-con h2 {
+    font-size: 20px;
+    color: #05afff;
+    padding-bottom: 10px; }
+  .abus-con p, .abus-con s, .abus-con a {
+    font-size: 16px; }
+  .abus-con a:hover {
+    text-decoration: none; }
+  .abus-con img {
+    display: inline-block;
+    width: 200px; }
+
+.erweima {
+  padding: 50px 0px; }
+  .erweima h1 {
+    padding: 50px 0px; }
+  .erweima img {
+    width: 300px; }
+
+.sea-banner-bg {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background: url(../img/sea-banner.png) center no-repeat; }
+
+.sea-txt {
+  width: 50%; }
+  .sea-txt p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px; }
+    .sea-txt p span {
+      color: #408bb5;
+      font-size: 26px; }
+
+.sea-img {
+  margin: 10px 0; }
+  .sea-img img {
+    width: 300px; }
+
+.sea-con {
+  position: relative;
+  padding: 50px 0; }
+  .sea-con h1 {
+    font-size: 28px;
+    color: #408bb5; }
+
+.gray-block {
+  height: 40px;
+  font-size: 20px; }
+
+.haitun {
+  width: 48%;
+  float: left;
+  display: block;
+  padding: 20px 0; }
+  .haitun p {
     display: inline-block; }
+
+.haitun-pic img {
+  width: 100%; }
+
+.news-banner-bg {
+  width: 100%;
+  height: 900px;
+  background: url(../img/news-banner.jpg) no-repeat center; }
+
+.news-banner-bottom {
+  background-color: #39a1be;
+  margin-top: -1px; }
+  .news-banner-bottom p {
+    height: 180px;
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 30px; }
+  .news-banner-bottom h1 {
+    color: #FFF;
+    letter-spacing: 2px;
+    font-size: 30px; }
+    .news-banner-bottom h1 .top-news {
+      font-size: 16px;
+      display: inline-block;
+      padding-left: 20px;
+      letter-spacing: 0px; }
+  .news-banner-bottom .new-list {
+    font-size: 16px; }
+  .news-banner-bottom div {
+    color: #FFF;
+    letter-spacing: 1px; }
+    .news-banner-bottom div span {
+      font-size: 60px; }
+
+.news-one-bg {
+  position: relative; }
+  .news-one-bg img {
+    width: 100%;
+    display: block; }
+  .news-one-bg .news-one {
+    margin-top: -5px;
+    height: 400px;
+    background-color: #040000; }
+    .news-one-bg .news-one p {
+      padding: 50px 0;
+      font-size: 20px;
+      color: #FFF; }
+
+.index-next-bg {
+  width: 100%;
+  position: relative;
+  height: 80px;
+  color: #FFF;
+  font-size: 20px; }
+  .index-next-bg .index-next {
+    line-height: 50px; }
+    .index-next-bg .index-next a {
+      color: #FFF; }
+      .index-next-bg .index-next a:hover {
+        color: #FFF;
+        text-decoration: none; }
+
+.sea-next-bg {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  margin-top: -10px;
+  font-size: 20px;
+  background-color: #fefefe;
+  padding-bottom: 20px; }
+  .sea-next-bg .sea-next {
+    margin-left: -20px; }
+    .sea-next-bg .sea-next a {
+      color: #408bb5; }
+      .sea-next-bg .sea-next a:hover {
+        color: #408bb5;
+        text-decoration: none; }
+
+.news-next-bg {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  font-size: 20px;
+  background-color: #f58345;
+  padding-bottom: 20px; }
+  .news-next-bg .news-next a {
+    color: #FFF; }
+    .news-next-bg .news-next a:hover {
+      color: #FFF;
+      text-decoration: none; }
+
+.kopp-next-bg {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  font-size: 20px;
+  padding-bottom: 20px; }
+  .kopp-next-bg .kopp-next a {
+    color: #408bb5; }
+    .kopp-next-bg .kopp-next a:hover {
+      color: #408bb5;
+      text-decoration: none; }
 
 /*# sourceMappingURL=ocean.css.map */
